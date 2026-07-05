@@ -1,0 +1,33 @@
+# Network Discovery Notes
+
+## Objective
+
+Perform host discovery on the local network using Nmap.
+
+## Command Executed
+
+```cmd
+nmap -sn 192.168.12.0/24
+```
+
+## Findings
+
+Three active hosts were identified on the local network.
+
+| IP Address | Hostname | Device Type | Notes |
+|---|---|---|---|
+| 192.168.12.1 | KVD21.lan | Router | Arcadyan router / default gateway |
+| 192.168.12.179 | iPhone.lan | Mobile Device | iPhone detected after joining Wi-Fi |
+| 192.168.12.181 | Bronchitis.lan | Workstation | Local Windows PC |
+
+## Observations
+
+The initial scan only identified the router and workstation. After connecting an iPhone to the wireless network, a second scan identified an additional host.
+
+This demonstrates how Nmap can be used for host discovery and basic asset identification on a local network.
+
+## Evidence
+
+Screenshot:
+
+`../screenshots/nmap/host-discovery-with-iphone.png`
