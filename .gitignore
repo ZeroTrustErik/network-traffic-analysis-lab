@@ -1,0 +1,11 @@
+# Private packet captures
+*.pcap
+*.pcapng
+*.pcap.gz
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Pycharm settings
+.idea/
