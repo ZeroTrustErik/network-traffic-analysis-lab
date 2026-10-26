@@ -3,6 +3,11 @@
 *.pcapng
 *.pcap.gz
 
+# Private network traffic csv
+python/sample_traffic.csv
+
+
+
 # Python temporary files
 __pycache__/
 *.pyc
